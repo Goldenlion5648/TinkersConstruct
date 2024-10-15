@@ -11,7 +11,7 @@ Anything that is not possible via IMC has to be integrated via Code through the 
 (old 1.7.10 IMCs can be found here: https://gist.github.com/bonii-xx/e46f9d9e81e29d796b1b)
 
 ## Setting up a Workspace/Compiling from Source
-Note: Git MUST be installed and in the system path to use our scripts.
+Note: Git MUST be installed and in the system path to use our scripts. Java 18 must be used.
 * Setup: Run [gradle]in the repository root: `gradlew[.bat] [setupDevWorkspace|setupDecompWorkspace] [eclipse|idea]`
 * Build: Run [gradle]in the repository root: `gradlew[.bat] build`
 * If obscure Gradle issues are found try running `gradlew clean` and `gradlew cleanCache`
